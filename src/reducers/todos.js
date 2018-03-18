@@ -14,7 +14,7 @@ const todos = (state = initial, action) => {
                 (t.id === action.id)
                 ? {...t, completed: !t.completed}
                 : t
-            )        
+            )        //https://github.com/suthon-coe/react-redux-todos
         default:
             return state
     }
