@@ -1,6 +1,6 @@
 const initial = [
     { id: 1, text: 'foo', completed: false },
-    { id: 2, text: 'bar', completed: false }
+    { id: 2, text: 'bar', completed: true }
 ];
 const todos = (state = initial, action) => {
     switch(action.type){
