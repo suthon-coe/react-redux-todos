@@ -7,3 +7,6 @@ import todos from './reducers/todos';
 
 let store = createStore(todos)
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+
+
+//https://github.com/suthon-coe/react-redux-todos
